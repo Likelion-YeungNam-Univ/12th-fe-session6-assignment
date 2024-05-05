@@ -1,0 +1,19 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.Home-video {
+  display: flex;
+  gap: 20px;
+}
+
+.Home-shorts {
+  display: flex;
+  gap: 20px;
+}
+
+.Home-content {
+  padding: 15px;
+}
