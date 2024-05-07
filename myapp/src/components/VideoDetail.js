@@ -47,7 +47,6 @@ const Views=styled.div`
     color: #4c4c4c;
 `
 const Date=styled.div`
-    font-size: 6px;
     font-size: 9px;
     color: #4c4c4c;
 `
@@ -62,7 +61,7 @@ function VideoDetail({profil,title,channel,view,date}){
                     <Title>{title}</Title>
                     <Channel>{channel}</Channel>
                     <Detail>
-                        <Views>조회수{view} • </Views>
+                        <Views>조회수 {view}회 • </Views>
                         <Date>{date}년전</Date>
                     </Detail>
                 </Right>

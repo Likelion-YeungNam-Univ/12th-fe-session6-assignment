@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 const TopbarWrapper=styled.div`
     /* background-color: red; */
-    height: 40px;
+    /* height: 40px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
 `
 
 function TopBar(){

@@ -3,6 +3,7 @@ import TopBar from './components/TopBar';
 import './App.css';
 import VideoList from './components/VideoList';
 import ShortsBar from './components/ShortsBar';
+import ShortsList from './components/ShortsList';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <ShortsBar/>
 
       {/* 쇼츠 목록 */}
-
+      <ShortsList/>
 
     </div>
   );

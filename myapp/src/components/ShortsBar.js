@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 const ShortsbarWrapper=styled.div`
-    background-color: red;
-    height: 40px;
+    /* background-color: red; */
+    /* height: 40px; */
     width: 100%;
     display: flex;
     justify-content: space-between;

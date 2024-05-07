@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 const FilterbarWrapper=styled.div`
     /* background-color: black; */
-    height: 40px;
+    /* height: 40px; */
     width: 100%;
     display: flex;
+    flex: 1;
     /* margin-left: 12px; */
 `
 const FilterButton=styled.div`
