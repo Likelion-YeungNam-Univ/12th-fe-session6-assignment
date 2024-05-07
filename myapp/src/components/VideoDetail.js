@@ -2,20 +2,20 @@ import styled from 'styled-components'
 
 const VideoBody=styled.div`
     height: 100%;
-    /* background-color: red; */
     width: 22%;
 `
 const Video=styled.div`
     height: 70%;
     background-color: darkblue;
-    width: 90%;
+    width: 93%;
     margin-left: 12px;
     margin-top: 8px;
     border-radius: 10px;
+    margin: auto;
 `
 const Info=styled.div`
     display: flex;
-    width: 90%;
+    width: 95%;
     margin-top: 8px;
 `
 const Profil=styled.div`

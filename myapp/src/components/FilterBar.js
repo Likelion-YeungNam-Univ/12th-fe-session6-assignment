@@ -5,7 +5,7 @@ const FilterbarWrapper=styled.div`
     height: 40px;
     width: 100%;
     display: flex;
-    margin-left: 12px;
+    /* margin-left: 12px; */
 `
 const FilterButton=styled.div`
     background-color: #2f2f2f;

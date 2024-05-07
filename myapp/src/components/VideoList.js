@@ -2,11 +2,9 @@ import styled from 'styled-components'
 import VideoDetail from './VideoDetail';
 
 const VideorWrapper=styled.div`
-    height: 260px;
-    /* background-color: red; */
+    height: 240px;
     width: 100%;
     display: flex;
-    /* margin-left: 12px; */
 `
 
 

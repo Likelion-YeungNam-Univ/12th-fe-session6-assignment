@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-const TopbarWrapper=styled.div`
-    /* background-color: red; */
+const ShortsbarWrapper=styled.div`
+    background-color: red;
     height: 40px;
     width: 100%;
     display: flex;
@@ -9,16 +9,16 @@ const TopbarWrapper=styled.div`
     align-items: center;
 `
 
-function TopBar(){
+function ShortsBar(){
     return(
-        <TopbarWrapper>
+        <ShortsbarWrapper>
             {/* 왼쪽 아이콘 */}
             <div>hi</div>
 
             {/* 오른쪽 아이콘 */}
             <div>hi</div>
-        </TopbarWrapper>
+        </ShortsbarWrapper>
     )
 }
 
-export  default TopBar;
+export  default ShortsBar;

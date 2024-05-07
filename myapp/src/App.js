@@ -2,6 +2,7 @@ import FilterBar from './components/FilterBar';
 import TopBar from './components/TopBar';
 import './App.css';
 import VideoList from './components/VideoList';
+import ShortsBar from './components/ShortsBar';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <VideoList/>
 
       {/* 쇼츠바 */}
-
+      <ShortsBar/>
 
       {/* 쇼츠 목록 */}
 
