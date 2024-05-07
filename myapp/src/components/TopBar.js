@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { FaYoutube } from "react-icons/fa";
 import { FaKeyboard } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
+import { IoMicCircle } from "react-icons/io5";
 
 const TopbarWrapper=styled.div`
     width: 100%;
@@ -30,6 +31,10 @@ const MiddleIcon=styled.div`
     border: solid 1px #545454;
     padding-left: 8px;
     overflow: hidden;
+`
+const MiddleWrapper=styled.div`
+    display: flex;
+    align-items: center;
 `
 const Search=styled.div`
     height: 18px;
@@ -62,17 +67,19 @@ function TopBar(){
             </LeftIcons>
             
             {/* 중간 검색창 */}
-            <MiddleIcon>
-                <Search>
-                    <p>검색</p>
-                    <FaKeyboard size='16px' style={{color: '#858585'}}/>
-                </Search>
-                <SearchButton>
-                    <IoIosSearch size='18px'/>
-                </SearchButton>
-
-            </MiddleIcon>
-            {/* 마이크 아이콘 */}
+            <MiddleWrapper>
+                <MiddleIcon>
+                    <Search>
+                        <p>검색</p>
+                        <FaKeyboard size='16px' style={{color: '#858585'}}/>
+                    </Search>
+                    <SearchButton>
+                        <IoIosSearch size='18px'/>
+                    </SearchButton>
+                </MiddleIcon>
+                {/* 마이크 아이콘 */}
+                <IoMicCircle size='24px' style={{color: '#858585', margin: '0 8px'}}/>
+            </MiddleWrapper>
 
 
             {/* 오른쪽 아이콘 */}
