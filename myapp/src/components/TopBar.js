@@ -3,6 +3,9 @@ import { FaYoutube } from "react-icons/fa";
 import { FaKeyboard } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
 import { IoMicCircle } from "react-icons/io5";
+import { MdOutlineVideoCall } from "react-icons/md";
+import { CiBellOn } from "react-icons/ci";
+import { FaUserCircle } from "react-icons/fa";
 
 const TopbarWrapper=styled.div`
     width: 100%;
@@ -56,7 +59,9 @@ const SearchButton=styled.div`
     align-items: center;
     justify-content: center;
 `
-
+const RightIcons=styled.div`
+   display: flex;
+`
 function TopBar(){
     return(
         <TopbarWrapper>
@@ -83,7 +88,13 @@ function TopBar(){
 
 
             {/* 오른쪽 아이콘 */}
-            <div>hi</div>
+            <RightIcons>
+                <MdOutlineVideoCall size='24px' style={{color: '#ffffff', margin: '0 10px 0 0'}}/>
+                <CiBellOn size='24px' style={{color: '#ffffff'}}/>
+                <FaUserCircle size='24px' style={{color: '#689f39', margin: '0 10px 0 10px'}}/>
+            </RightIcons>
+            
+
         </TopbarWrapper>
     )
 }
