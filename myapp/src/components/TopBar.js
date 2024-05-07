@@ -67,7 +67,7 @@ function TopBar(){
         <TopbarWrapper>
             {/* 왼쪽 아이콘 */}
             <LeftIcons>
-                <FaYoutube size="24px" style={{color: 'red'}} />
+                <FaYoutube size="24px" style={{color: '#fc0101'}} />
                 <YoutubeText>Youtube</YoutubeText>
             </LeftIcons>
             
