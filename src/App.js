@@ -1,4 +1,4 @@
-import Button from './Button';
+import Category from './Category';
 import Video from './Video';
 import Shorts from './Shorts';
 import styled from "styled-components";
@@ -52,15 +52,15 @@ function App() {
     <Wrapper>
       <Header></Header>
       <Content>
-        <Button btnDiscription="전체"></Button>
-        <Button btnDiscription="음악"></Button>
-        <Button btnDiscription="게임"></Button>
-        <Button btnDiscription="라이브"></Button>
-        <Button btnDiscription="랩"></Button>
-        <Button btnDiscription="액션 어드벤처 게임"></Button>
-        <Button btnDiscription="만화 영화"></Button>
-        <Button btnDiscription="최근 업로드된 동영상"></Button>
-        <Button btnDiscription="새로운 맞춤 동영상"></Button>
+        <Category categoryDiscription="전체"></Category>
+        <Category categoryDiscription="음악"></Category>
+        <Category categoryDiscription="게임"></Category>
+        <Category categoryDiscription="라이브"></Category>
+        <Category categoryDiscription="랩"></Category>
+        <Category categoryDiscription="액션 어드벤처 게임"></Category>
+        <Category categoryDiscription="만화 영화"></Category>
+        <Category categoryDiscription="최근 업로드된 동영상"></Category>
+        <Category categoryDiscription="새로운 맞춤 동영상"></Category>
         
         <VideoWrapper>
           <Video videoSrc={Video1} videoAlt = "유튜버 1" youtuberSrc={Youtuber1} youtuberAlt="유튜버 1" videoTitle="딜량 확인하고 눈을 의심한 팔협지.. 루덴 아지르 이거 뭐야? 버그 아니야?" youtuberName="이스타TV" videoView="1만" uploadTime="1년 전" ></Video>

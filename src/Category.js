@@ -19,14 +19,14 @@ const Wrapper = styled.button`
 `;
 
 
-const Button = ({btnDiscription}) => {
+const Category = ({categoryDiscription}) => {
 
     return(
         <>
-            <Wrapper>{btnDiscription}</Wrapper>
+            <Wrapper>{categoryDiscription}</Wrapper>
         </>
         
     );
 }
 
-export default Button;
+export default Category;

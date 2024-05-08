@@ -81,7 +81,7 @@ const Video = ({videoSrc, videoAlt, youtuberSrc, youtuberAlt, videoTitle, youtub
                         <VideoTitle>{videoTitle}</VideoTitle>
                         <YoutuberName>{youtuberName}</YoutuberName>
                         <Bot>
-                            <VideoView>조회수 {videoView} . </VideoView>
+                            <VideoView>조회수 {videoView}·</VideoView>
                             <UploadTime>{uploadTime}</UploadTime>
                         </Bot>
                     </Right>
