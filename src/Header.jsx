@@ -2,8 +2,7 @@ import "./styled/Header.css";
 import youtubeLogo from "./youtubeLogo.png";
 import user from "./user.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {favideo} from "@fortawesome/free-solid-svg-icons";
-import {fabell} from "@fortawesome/free-solid-svg-icons";
+import {favideo,fabell} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
     return(
@@ -26,5 +25,4 @@ function Header() {
     )
 }
 
-<FontAwesomeIcon icon={favideo} />
 export default Header;

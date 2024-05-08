@@ -10,6 +10,28 @@ import user from "./user.png";
 
 
 function App() {
+  const videokindList = [
+    {
+      id: 1,
+      kind: "전체"
+    },
+    {
+      id: 2,
+      kind: "음악"
+    },
+    {
+      id: 3,
+      kind: "게임"
+    },
+    {
+      id: 4,
+      kind: "라이브"
+    },
+    {
+      id: 5,
+      kind: "최근에 업로드된 동영상"
+    }
+  ];
   const videoList = [
     {
       id: 1,
@@ -120,11 +142,14 @@ function App() {
     <>
       <Header/>
 
-      <Videokind kind="전체"/>
-      <Videokind kind="음악"/>
-      <Videokind kind="게임"/>
-      <Videokind kind="라이브"/>
-      <Videokind kind="최근에 업로드된 동영상"/>
+      <div>
+        {videokindList.map((kind)=>(
+          <Videokind 
+          key={kind.id}
+          kind={kind.kind}
+          ></Videokind>
+      ))}
+      </div>
 
       <div className='videos'>
         {videoList.map((video)=>(
