@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from "./Header";
-import Nav from "./Nav";
-import Video from "./Video";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Video from "./components/Video";
 import ShortsHeader from "./components/ShortsHeader";
-import './App.css';
+import Shorts from "./components/Shorts";
+import './css/App.css';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Nav/>
     <Video/>
     <ShortsHeader/>
+    <Shorts/>
     </div>
   );
 }

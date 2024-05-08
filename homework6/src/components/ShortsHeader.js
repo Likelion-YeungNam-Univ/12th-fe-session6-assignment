@@ -1,5 +1,5 @@
 import React from 'react';
-import "./ShortsHeader.css";
+import "./css/ShortsHeader.css";
 
 const ShortsHeader=()=>{
     return(
