@@ -1,0 +1,12 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* 전체 배경을 검은색으로 설정 */
+  color: #fff; /* 텍스트 색상을 흰색으로 설정 */
+  height: 100%; /* 전체 높이를 차지하도록 설정 */
+}

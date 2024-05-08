@@ -1,0 +1,15 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* 가로 정렬 */
+    padding: 0;
+    gap: 10px; /* 카드 사이의 간격 */
+}
+
+.video-card {
+    flex: 1 1 calc((100% / 6) - 20px); /* 컨테이너 너비의 1/6에서 간격만큼 빼줌 */
+    margin: 5px;
+    height: 320px; /* 고정 높이 설정, 필요에 따라 조정 */
+    background-color: #333;
+    color: white;
+}

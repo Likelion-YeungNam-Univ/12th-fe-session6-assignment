@@ -1,0 +1,33 @@
+
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    height: 40px; 
+
+  }
+  
+  .search-input {
+    color: rgb(228, 228, 228);
+    background-color: rgb(59, 59, 59);
+    flex-grow: 1;
+    margin-right: 20px;
+    padding: 6px; /* 패딩 줄임 */
+    margin-top: 0; /* 상단 마진 제거 */
+    margin-bottom: 0; /* 하단 마진 제거 */
+    width :400px;
+    
+  }
+  
+
+  .header-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    padding: 8px;
+  }
