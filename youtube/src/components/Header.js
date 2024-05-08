@@ -16,7 +16,7 @@ const ProgfileImage = styled.img`
   height: auto;
   cursor: pointer;
 `;
-const Input = styled.input`
+const Search = styled.input`
   width: 300px;
   padding-left: 10px;
   border-radius: 15px;
@@ -61,19 +61,19 @@ const MikeImg = styled.img`
   cursor: pointer;
   margin-left:10px;
 `;
-const InputContainer=styled.div`
+const Container=styled.div`
   display: flex;
 `
 function Header() {
   return (
     <Wrapper>
       <Image1 alt="logo" src="img/logo.png" />
-      <InputContainer>
-        <Input placeholder="검색"></Input>
+      <Container>
+        <Search placeholder="검색"></Search>
         <Mike>
           <MikeImg src="img/mike.png" alt="Mike"></MikeImg>
         </Mike>
-      </InputContainer>
+      </Container>
       <ProfileContainer>
         <Camera>
           <CameraImg src="img/camera.png" alt="Camera" />
