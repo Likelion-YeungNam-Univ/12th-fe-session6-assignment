@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-
+  margin-top: 30px;
   height: auto;
   width: 100%;
   display: grid;
@@ -9,11 +9,11 @@ const Container = styled.div`
   gap: 15px;
   grid-template-columns: repeat(6, 1fr);
   @media (max-width: 768px) {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 const Image = styled.img`
-  width: 100%;
+  width: 300px;
   padding: 5px;
   border-radius: 10px;
   object-fit: cover;
@@ -81,10 +81,11 @@ const ProfileImage = styled.img`
   height: 25px;
 `;
 const SubContainer = styled.div`
-  display: grid; // grid 디스플레이를 사용함을 명시
-  grid-template-columns: auto 1fr; // 첫 번째 컬럼에 프로필 이미지, 두 번째 컬럼에 제목 배치
-  align-items: center; // 세로 중앙 정렬
-  gap: 10px; // 이미지와 제목 사이의 간격 설정
+  display: grid; 
+  grid-template-columns: auto 1fr;  
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 20px;
 `;
 
 function Video() {
