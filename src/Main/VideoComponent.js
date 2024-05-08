@@ -49,6 +49,12 @@ const VideoComponent = ({video}) => {
 
         border-radius : 15px;
         margin-bottom : 15px;
+
+        transition : 0.3s;
+
+        &:hover {
+            scale : 1.02 1.02;
+        }
     `;
 
 

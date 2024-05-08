@@ -5,7 +5,6 @@ const SearchBox = () => {
 
     const WrapperComp = styled.div`
         display : flex;
-
     `;
 
 
@@ -45,6 +44,10 @@ const SearchBox = () => {
         border-radius : 50%;
         border : none;
         cursor : pointer;
+        transition : 0.3s;
+        &:hover{
+            background-color: rgba(255,255,255,0.3);
+        }
     `;
 
     return(

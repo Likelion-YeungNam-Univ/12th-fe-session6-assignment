@@ -11,14 +11,16 @@ const ShortsComponent = ({shorts}) => {
     const Thumnail = styled.div`
         background-color : #fff;
         width : 100%;
-        height : 300px;
+        height : 250px;
         border-radius : 15px;
         margin-bottom : 10px;
+
+        transition : 0.3s;
+
+        &:hover {
+            scale : 1.02 1.02;
+        }
     `;
-
-    // const Description = styled.div`
-
-    // `;
 
     const Title = styled.div`
         color : #fff;

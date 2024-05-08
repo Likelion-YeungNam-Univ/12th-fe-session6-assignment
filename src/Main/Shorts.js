@@ -18,7 +18,7 @@ const Shorts = () => {
     const Wrapper = styled.div`
         box-sizing : border-box;
         width : 100%;
-        height : 400px;
+        height : 430px;
         display : flex;
         gap : 15px;
     `;
@@ -31,7 +31,7 @@ const Shorts = () => {
         font-size : 30px;
         margin-bottom : 30px;
         display : flex;
-        align-item : center;
+        align-items : center;
         gap : 10px;
 
     `;
