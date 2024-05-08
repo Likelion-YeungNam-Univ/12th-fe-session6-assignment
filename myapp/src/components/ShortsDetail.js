@@ -27,7 +27,7 @@ const Views=styled.div`
 const ShortsImage=styled.img`
     display: block;
     width: 100%;
-    height: auto;
+    height: 98%;
     border-radius: 12px;
 `
 
