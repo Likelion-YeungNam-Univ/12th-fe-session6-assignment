@@ -1,0 +1,15 @@
+.video-card {
+    background-color: #333;
+    color: white;
+    flex: 1 1 calc((100% / 6) - 20px);
+    height: 320px;
+    margin: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 10px;
+}
