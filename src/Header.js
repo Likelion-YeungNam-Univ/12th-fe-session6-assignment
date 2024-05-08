@@ -5,20 +5,23 @@ import styled from "styled-components";
 
 const Header = () => {
   return (
-    <>
-      <h1>Header</h1>
-      <FontAwesomeIcon icon={faYoutube} style={{ color: "#fa2a05" }} />
-    </>
+    <Box>
+      <Title>
+        <FontAwesomeIcon icon={faYoutube} style={{ color: "#fa2a05" }} />
+        YouTube
+      </Title>
+      <Search type="text" placeholder="검색"></Search>
+    </Box>
   );
 };
 
 const Box = styled.div`
   display: flex;
-  justify-content: space-between;
 `;
 
-const Logo = styled.p`
-  font-weight: bold;
-`;
+const Title = styled.div``;
 
+const Search = styled.input``;
+
+const User = styled.div``;
 export default Header;
