@@ -3,11 +3,12 @@ import { SiYoutubeshorts } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
 
 const ShortsbarWrapper=styled.div`
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    padding-top: 12px;
+    margin: auto;
 `
 const ShortsLeft=styled.div`
     width: 100%;
@@ -26,14 +27,14 @@ const ShortsText=styled.div`
 function ShortsBar(){
     return(
         <ShortsbarWrapper>
-            {/* 왼쪽 아이콘 */}
+            {/* 왼쪽 쇼츠 아이콘 */}
             <ShortsLeft>
                 <SiYoutubeshorts color='#fc0101' size={'18'}/>
                 <ShortsText>Shorts</ShortsText>
             </ShortsLeft>
             
 
-            {/* 오른쪽 아이콘 */}
+            {/* 오른쪽 x 아이콘 */}
             <IoMdClose color='#858585' size={'24'}/>
         </ShortsbarWrapper>
     )

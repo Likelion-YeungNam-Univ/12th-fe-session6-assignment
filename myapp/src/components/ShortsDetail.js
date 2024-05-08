@@ -11,14 +11,12 @@ const Shorts=styled.div`
 const ShortsInfo=styled.div`
     height: 16%;
     width: 80%;
-    /* margin: 4px auto 0; */
     margin:auto;
 `
 const Title=styled.div`
     font-size: 10px;
     font-weight: bold;
     color: white;
-    /* margin: 3px 0; */
 `
 const Views=styled.div`
     font-size: 10px;
@@ -32,12 +30,15 @@ const ShortsImage=styled.img`
     border-radius: 12px;
 `
 
+// ShortsList에서 전달받은 props값을 사용
 function ShortsDetail({short, title, view}){
     return(
         <ShortsBody>
+            {/* 쇼츠이미지 */}
             <Shorts>
                 <ShortsImage src={short}/>
             </Shorts>
+            {/* 쇼츠정보 */}
             <ShortsInfo>
                 <Title>{title}</Title>
                 <Views>조회수 {view}회</Views>

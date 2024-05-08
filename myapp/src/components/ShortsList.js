@@ -18,6 +18,7 @@ const ShortsWrapper=styled.div`
 
 function ShortsList(){
     return(
+        // 쇼츠리스트
         <ShortsWrapper>  
             <ShortsDetail short={shorts01} title='장첸이 가장 매너있었던 장면 #범죄도시'
             view='139만' />

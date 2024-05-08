@@ -66,17 +66,21 @@ const ProfilImg=styled.img`
     border-radius: 50%;
 `
 
+// VideoList에서 전달받은 props값을 사용
 function VideoDetail({video, profil,title,channel,view,date}){
     return(
         <VideoBody>
-            {/* video이미지 porps로 전달하기 */}
+            {/* 비디오이미지 */}
             <Video>
                 <VideoImg src={video}/>
             </Video>
+            
             <Info>
+                {/* 프로필이미지 */}
                 <Profil>
                     <ProfilImg src={profil}/>
                 </Profil>
+                {/* 비디오 정보 */}
                 <Right>
                     <Title>{title}</Title>
                     <Channel>{channel}</Channel>

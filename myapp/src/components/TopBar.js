@@ -65,13 +65,13 @@ const RightIcons=styled.div`
 function TopBar(){
     return(
         <TopbarWrapper>
-            {/* 왼쪽 아이콘 */}
+            {/* 왼쪽 유튜브 아이콘 */}
             <LeftIcons>
                 <FaYoutube size="24px" style={{color: '#fc0101'}} />
                 <YoutubeText>Youtube</YoutubeText>
             </LeftIcons>
             
-            {/* 중간 검색창 */}
+            {/* 중간 검색창 및 아이콘*/}
             <MiddleWrapper>
                 <MiddleIcon>
                     <Search>
@@ -93,7 +93,6 @@ function TopBar(){
                 <CiBellOn size='24px' style={{color: '#ffffff'}}/>
                 <FaUserCircle size='24px' style={{color: '#689f39', margin: '0 10px 0 10px'}}/>
             </RightIcons>
-            
 
         </TopbarWrapper>
     )
