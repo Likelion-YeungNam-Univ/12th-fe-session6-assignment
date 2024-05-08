@@ -21,9 +21,9 @@ const Title=styled.div`
 
 `
 const Views=styled.div`
-    font-size: 9px;
+    font-size: 10px;
+    color: #4c4c4c;
     font-weight: bold;
-    color: white;
 `
 
 function ShortsDetail({title, view}){
