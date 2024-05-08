@@ -6,6 +6,7 @@ import styled from "styled-components";
 function App() {
   return (
     <Wrapper>
+      <img src="./user.png" alt=""></img>
       <Header />
       <Video />
       <Short />
