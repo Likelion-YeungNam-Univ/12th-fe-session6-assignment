@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 const ShortsBody=styled.div`
     width: 100%;
+    height: 100%;
 `
 const Shorts=styled.div`
     width: 96%;
+    height: 84%;
     border-radius: 12px;
     margin: auto;
 `
-
 const ShortsInfo=styled.div`
     height: 16%;
     width: 80%;
