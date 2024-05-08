@@ -6,17 +6,35 @@ const Sidebar = () => {
   return (
     <List>
       <ListItem button>
-        <ListItemText primary="홈" />
+        <ListItemText primary="전체" />
       </ListItem>
       <ListItem button>
-        <ListItemText primary="트렌딩" />
+        <ListItemText primary="음악" />
       </ListItem>
       <ListItem button>
-        <ListItemText primary="구독" />
+        <ListItemText primary="게임" />
       </ListItem>
-      {/* 필요한 아이템을 더 추가하세요 */}
+      <ListItem button>
+        <ListItemText primary="라이브" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="앱" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="액션 어드벤쳐 게임" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="만화 영화" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="최근에 업로드된 동영상" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="새로운 맞춤 동영상" />
+      </ListItem>
     </List>
   );
 };
 
 export default Sidebar;
+//test

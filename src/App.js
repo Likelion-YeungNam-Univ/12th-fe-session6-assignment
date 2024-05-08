@@ -6,16 +6,45 @@ import VideoThumbnails from './VideoThumbnails';
 
 const videos = [
   {
-    title: "예시 동영상 1",
-    channel: "예시 채널 1",
+    title: "동영상 제목 1",
+    channel: "채널명 1",
     thumbnail: "https://via.placeholder.com/200",
   },
   {
-    title: "예시 동영상 2",
-    channel: "예시 채널 2",
+    title: "동영상 제목 2",
+    channel: "채널명 2",
     thumbnail: "https://via.placeholder.com/200",
   },
-  // 추가 동영상을 여기에 넣을 수 있습니다.
+  {
+    title: "동영상 제목 3",
+    channel: "채널명 3",
+    thumbnail: "https://via.placeholder.com/200",
+  },
+  {
+    title: "동영상 제목 4",
+    channel: "채널명 4",
+    thumbnail: "https://via.placeholder.com/200",
+  },
+  {
+    title: "동영상 제목 5",
+    channel: "채널명 5",
+    thumbnail: "https://via.placeholder.com/200",
+  },
+  {
+    title: "동영상 제목 6",
+    channel: "채널명 6",
+    thumbnail: "https://via.placeholder.com/200",
+  },
+  {
+    title: "동영상 제목 7",
+    channel: "채널명 7",
+    thumbnail: "https://via.placeholder.com/200",
+  },
+  {
+    title: "동영상 제목 8",
+    channel: "채널명 8",
+    thumbnail: "https://via.placeholder.com/200",
+  },
 ];
 
 const App = () => {

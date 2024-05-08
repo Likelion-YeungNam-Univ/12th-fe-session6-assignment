@@ -11,7 +11,7 @@ const Header = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          유튜브 클론
+          YouTube
         </Typography>
       </Toolbar>
     </AppBar>
@@ -19,4 +19,3 @@ const Header = () => {
 };
 
 export default Header;
-//test
