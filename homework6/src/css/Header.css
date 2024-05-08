@@ -1,0 +1,9 @@
+
+.header{
+    color: white;
+    background-color: black;
+    display: flex;
+}
+.header-input input{
+border-radius: 35px;
+}
