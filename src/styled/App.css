@@ -1,0 +1,12 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+.videos{
+  display: flex;
+}
+
+.shorts{
+  display: flex;
+}
