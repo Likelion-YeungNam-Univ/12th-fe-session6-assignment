@@ -11,9 +11,11 @@ import shorts08 from '../images/shorts08.png';
 import shorts09 from '../images/shorts09.png';
 
 const ShortsWrapper=styled.div`
-    width: 95%;
+    width: 98%;
     display: flex;
     flex: 8;
+    justify-content: space-between;
+    margin: auto;
 `
 
 function ShortsList(){
