@@ -5,13 +5,13 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{ backgroundColor: '#FFFFFF' }}>
       <Toolbar>
-        <IconButton edge="start" color="inherit" aria-label="menu">
+        <IconButton edge="start" style={{ color: '#FF0000' }} aria-label="menu">
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" style={{ flexGrow: 1 }}>
-          YouTube
+        <Typography variant="h6" style={{ flexGrow: 1, color: '#000000' }}>
+          YouTube Premium
         </Typography>
       </Toolbar>
     </AppBar>
