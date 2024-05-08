@@ -1,0 +1,22 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+    height: 15%;
+}
+
+.settings{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user{
+    width: 20%;
+    height: 20%;
+    color: #B197FC;
+}
