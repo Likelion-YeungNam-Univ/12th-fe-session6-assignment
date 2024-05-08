@@ -13,6 +13,12 @@ const Video=styled.div`
     border-radius: 10px;
     margin: auto;
 `
+const VideoImg=styled.img`
+    display:block;
+	width:100%;
+	height:100%;
+    border-radius: 10px;
+`
 const Info=styled.div`
     display: flex;
     width: 95%;
@@ -52,21 +58,24 @@ const Date=styled.div`
     color: #4c4c4c;
     font-weight: bold;
 `
-const Img=styled.img`
+
+const ProfilImg=styled.img`
     display:block;
 	width:100%;
 	height:auto;
     border-radius: 50%;
 `
 
-function VideoDetail({profil,title,channel,view,date}){
+function VideoDetail({video, profil,title,channel,view,date}){
     return(
         <VideoBody>
             {/* video이미지 porps로 전달하기 */}
-            <Video></Video>
+            <Video>
+                <VideoImg src={video}/>
+            </Video>
             <Info>
                 <Profil>
-                    <Img src={profil}/>
+                    <ProfilImg src={profil}/>
                 </Profil>
                 <Right>
                     <Title>{title}</Title>
