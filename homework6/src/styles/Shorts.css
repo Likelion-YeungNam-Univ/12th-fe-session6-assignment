@@ -1,0 +1,19 @@
+.Shorts {
+  width: 15%;
+}
+
+.Shorts img {
+  width: 100%;
+}
+
+.Shorts-text-info {
+  margin-top: 5px;
+  font-size: 12px;
+  color: gray;
+}
+
+.Shorts-text-title {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}

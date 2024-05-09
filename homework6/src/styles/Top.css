@@ -1,0 +1,21 @@
+.Top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.Top-input input {
+  color: white;
+  background-color: black;
+  border: 1px solid #bfbbbb;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+}
+
+.Top-setting {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
